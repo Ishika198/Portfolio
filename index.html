@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/179e91e50a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="Header"> 
+        <div class="container">
+            <nav> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <ul id="sidemenu">
+                    <li> <a href="#home"> Home</a></li>                    
+                    <li> <a href="#about"> About</a></li>                    
+                    <li> <a href="#skills"> Skills</a></li>                    
+                    <li> <a href="#project"> Projects</a></li>
+                    <li> <a href="#contact"> Contact</a></li>        
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>           
+                </ul>
+                </nav>
+
+
+
+                <!-- <nav class="navbar">
+                    <div class="left">
+                        <h1>Navbar</h1>
+                    </div>
+                    <div class="right">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkBtn">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <ul class="list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav> -->
+            <div class="Header-Text">
+                <p> Web Developer </p>
+                <h1> Hi , I'm <span> Ishika </span><br>From Udaipur</h1>
+            </div>
+        </div>
+    </div>   
+    <!-- ------------------------------------ABOUT---------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="final.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About Me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate aperiam laborum, harum incidunt magnam corrupti quae minima dicta distinctio repellat itaque labore quisquam ipsum, quasi fugit blanditiis provident ratione eum ut consequuntur ea amet, perferendis autem nesciunt? Accusamus quas sapiente impedit totam, placeat deleniti molestias ea fugiat dolorem labore! Libero, cum. Laboriosam, accusamus! Necessitatibus ea facere est ad corporis mollitia ab, asperiores minus reprehenderit in. Molestias distinctio nostrum est iusto hic sit alias, delectus vel facilis perferendis! Sint architecto quis blanditiis qui! Iure distinctio vel maiores sit cum debitis repellendus eveniet impedit! Quia repellendus temporibus ea facilis asperiores iste sit!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')"> Education </p>
+                        <p class="tab-links" onclick="opentab('Interests')"> Interests </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2019</span><br> Secondary Education(RBSE 10th)<br>Maruti Inter Sr Sec School,Hindaun city(karauli)<br>Percentage - 85.50%</li>
+                            <li><span>2021</span><br> Senior Secondary Education(RBSE 12th)<br>Sarvodaya Bal V M Sr Sec School, Kyarda Kalan (Karauli)<br>Percentage - 96.80%</li>
+                            <li><span>2025</span><br> B.Tech. in Computer Science <br>College Of Technology And Engineering, Udaipur<br>Curren OGPA - 7.48</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Interests">
+                        <ul>
+                            <li><span>Photography</span><br> My emotions and instincts are all with nature.</li>
+                            <li><span>Dancing</span><br> Dance enables you to find yourself and lose yourself at the same time.</li>
+                            <li><span>Reading Novels</span><br> There is no Frigate like a Book To take us Lands away.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------SKILLS-------------------------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="subtitle"> My Skills </h1>
+            <div class="skills-list">
+               <div>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>HTML CSS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius illo non cumque nulla libero itaque suscipit velit</p>
+                <a href="#">learn more</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-square-js"></i>
+                <h2>JAVASCRIPT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius illo non cumque nulla libero itaque suscipit velit</p>
+                <a href="#">learn more</a>
+               </div>
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C/C++ Problem Solving</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius illo non cumque nulla libero itaque suscipit velit</p>
+                <a href="#">learn more</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>JAVA with OOPS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius illo non cumque nulla libero itaque suscipit velit</p>
+                <a href="#">learn more</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------PROJECTS------------------------------ -->
+    <div id="project">
+        <div class="container">
+            <h1 class="subtitle"> Projects </h1>
+            <div class="list">
+                <div class="work">
+                    <img src="https://i.pinimg.com/originals/30/8f/2f/308f2fd627c36e007527bc50337f6c7b.jpg">
+                    <div class="layer">
+                        <h2>PORTFOLIO</h2>
+                        <p>Created my own portfolio website using CSS, HTML and a basic of JAVASCRIPT.</p>
+                        <!-- add git link here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------CONTACT----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>  iagrawal1980@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>  +91 8440892119</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ishika-agrawal-758aab225"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a href="C:\Users\91844\Downloads\ISHIKA AGRAWAL (3).pdf" download class="btn">RESUME</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">SUBMIT</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.left = "0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.left = "-200px";
+        }
+    </script>
+</body>
+</html>
